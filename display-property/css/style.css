@@ -1,3 +1,8 @@
+/* -- 
+You can use CSS to turn HTML block level elements 
+to inline elements and other way around.
+-- */
+
 nav {
     border: 1px solid #CCCCCC;
     width: 75%;
@@ -11,10 +16,17 @@ ul {
 }
 
 ul li {
+    /* -- <li> tags become inline elements -- */
     display: inline;
 }
 
 a {
+    /* -- 
+    CSS properties >>width<< and >>margin<< cannot be set for inline elements. 
+    >>inline-block<< value of property >>display<< makes targetted element behaving like
+    inline element BUT, this time, you have a chance to set the >>width<< or >>margin<< 
+    for your element.
+    -- */
     display: inline-block;
     padding: 0.5rem 1rem;
     background-color: cornflowerblue;
