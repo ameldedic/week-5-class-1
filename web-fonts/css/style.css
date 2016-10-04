@@ -1,0 +1,27 @@
+/*
+@import 'https://fonts.googleapis.com/css?family=Shrikhand';
+*/
+
+/*
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shrikhand'), 
+       local('Shrikhand-Regular'), 
+       url(https://fonts.gstatic.com/s/shrikhand/v1/JyWweKXulPH__9al48I7XltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+*/
+
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shrikhand'), 
+       local('Shrikhand-Regular'), 
+       url(../fonts/bizzare.woff2) format('woff2');
+}
+
+body {
+    font-family: 'Shrikhand', cursive;
+}

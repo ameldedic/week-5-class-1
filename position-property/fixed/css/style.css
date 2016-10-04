@@ -1,0 +1,15 @@
+.container {
+    border: 1px solid #CCCCCC;
+}
+
+figure {
+    border: 1px solid coral;
+    position: relative;
+}
+
+img {
+    position: fixed;
+    top: -1rem;
+    left: -1rem;
+    z-index: -1;
+}
