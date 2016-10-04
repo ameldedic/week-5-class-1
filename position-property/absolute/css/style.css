@@ -1,3 +1,24 @@
+/* -- 
+With setting the position of an HTML element to value >>absolute<<, 
+you get a chance to move your element inside webpage 
+RESPECTIVE TO THE TOP-LEFT CORNER OD WEB BROWSER'S WINDOW!
+
+The default coordinate origin is at the top-left corner of the window, BUT
+you can move the coordinate origin to the closest ancestor of the element
+positioned with value >>absolute<<. You just need to make sure that ancestor element is 
+positioned with value >>relative<<.
+
+With position absolute, you get a chance to use CSS properties:
+top | right | bottom | left | z-index
+
+References:
+https://developer.mozilla.org/en-US/docs/Web/CSS/top
+https://developer.mozilla.org/en-US/docs/Web/CSS/right
+https://developer.mozilla.org/en-US/docs/Web/CSS/bottom
+https://developer.mozilla.org/en-US/docs/Web/CSS/left
+https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+-- */
+
 .container {
     border: 1px solid #CCCCCC;
 }

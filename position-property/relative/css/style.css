@@ -1,3 +1,18 @@
+/* -- 
+With setting the position of an HTML element to value >>relative<<, 
+you get a chance to move your element inside webpage 
+RESPECTIVE TO THE CURRENT POSITION OF TARGETTED ELEMENT!
+With position relative, you get a chance to use CSS properties:
+top | right | bottom | left | z-index
+
+References:
+https://developer.mozilla.org/en-US/docs/Web/CSS/top
+https://developer.mozilla.org/en-US/docs/Web/CSS/right
+https://developer.mozilla.org/en-US/docs/Web/CSS/bottom
+https://developer.mozilla.org/en-US/docs/Web/CSS/left
+https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+-- */
+
 .container {
     border: 1px solid #CCCCCC;
 }
