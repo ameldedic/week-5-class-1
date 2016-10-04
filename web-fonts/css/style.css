@@ -1,7 +1,11 @@
+/* -- You can also load up your font from style sheet using @import -- */
 /*
 @import 'https://fonts.googleapis.com/css?family=Shrikhand';
 */
 
+
+
+/* -- You can also load up your font from style sheet using @font-face rule -- */
 /*
 @font-face {
   font-family: 'Shrikhand';
@@ -13,6 +17,8 @@
 }
 */
 
+
+/* -- In his example, we downloaded the font. This time, font will be served from your Web Server. -- */
 @font-face {
   font-family: 'Shrikhand';
   font-style: normal;
@@ -22,6 +28,8 @@
        url(../fonts/bizzare.woff2) format('woff2');
 }
 
+
+/* -- Whatever way you choose to load up your font, you still need to declare font-family inside desired HTML tag -- */
 body {
     font-family: 'Shrikhand', cursive;
 }
